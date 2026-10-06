@@ -1,0 +1,633 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #c31432;
+
+    background: linear-gradient(to bottom left,
+            rgb(253, 1, 1),
+            rgb(0, 0, 0));
+}
+
+header {
+    .cabecera {
+        margin-top: 25px;
+        text-align: center;
+        background: linear-gradient(to bottom left,
+                rgb(253, 1, 1),
+                rgb(248, 248, 248));
+    }
+}
+
+nav {
+    background: linear-gradient(to top left,
+            rgb(247, 29, 29),
+            rgb(250, 249, 249));
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+
+    a {
+        display: inline-block;
+        color: rgb(253, 0, 0);
+        text-decoration: none;
+        padding: 10px;
+        margin: auto;
+        border-radius: 20px;
+        transition-property: all;
+        transition-duration: 500ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+
+        &:hover {
+            background-color: rgb(246, 247, 246);
+            color: black;
+        }
+    }
+}
+
+.titular1 {
+    background: linear-gradient(to bottom left,
+            rgb(245, 244, 244),
+            rgb(77, 74, 74));
+    color: rgb(12, 12, 12);
+    margin: 10px;
+}
+
+.titular2 {
+    background: linear-gradient(to bottom left,
+            rgb(182, 106, 8),
+            rgb(10, 10, 10));
+    color: rgb(248, 244, 244);
+    margin: 10px;
+}
+
+.titular3 {
+    background: linear-gradient(to bottom left,
+            rgb(227, 243, 5),
+            rgb(10, 10, 10));
+    color: rgb(248, 244, 244);
+    margin: 10px;
+}
+
+.titular4 {
+    background: linear-gradient(to bottom left,
+            rgb(5, 176, 243),
+            rgb(10, 10, 10));
+    color: rgb(248, 244, 244);
+    margin: 10px;
+}
+
+.titular5 {
+    background: linear-gradient(to bottom left,
+            rgb(243, 5, 5),
+            rgb(10, 10, 10));
+    color: rgb(248, 244, 244);
+    margin: 10px;
+}
+
+.contenido {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+
+    h3 {
+        text-align: center;
+    }
+
+    ul {
+        list-style-position: inside;
+        padding-left: 20px;
+
+        li {
+            text-align: left;
+        }
+    }
+}
+
+.escuderia {
+    width: 25%;
+    display: inline-block;
+    background-color: black;
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    padding: 40px;
+    margin: 10px;
+}
+
+.redbull {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(2, 2, 112),
+                rgba(238, 238, 66, 0.877),
+                rgb(241, 54, 54));
+        color: rgb(2, 39, 248);
+    }
+}
+
+.ferrari {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(7, 7, 7),
+                rgba(238, 238, 66, 0.877),
+                rgb(252, 2, 2));
+        color: rgb(255, 0, 0);
+    }
+}
+
+.mercedes {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(0, 0, 0),
+                rgb(253, 253, 253),
+                rgb(1, 252, 252));
+        color: rgb(1, 169, 247);
+    }
+}
+
+.mclaren {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(252, 135, 2),
+                rgb(5, 5, 0),
+                rgb(252, 123, 2));
+        color: rgb(252, 123, 2);
+    }
+}
+
+.williams {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(2, 101, 248),
+                rgb(0, 0, 0),
+                rgb(2, 152, 252));
+        color: rgb(41, 105, 245);
+    }
+}
+
+.aston {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(2, 85, 16),
+                rgba(3, 3, 3, 0.877),
+                rgb(140, 247, 41));
+        color: rgb(42, 170, 3);
+    }
+}
+
+.audi {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(250, 0, 0),
+                rgb(2, 2, 2),
+                rgb(129, 128, 128));
+        color: rgb(170, 168, 168);
+    }
+}
+
+.alpine {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(2, 99, 245),
+                rgb(0, 0, 0),
+                rgb(252, 2, 219));
+        color: rgb(0, 151, 252);
+    }
+}
+
+.haas {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(255, 255, 255),
+                rgb(0, 0, 0),
+                rgb(252, 2, 2));
+        color: rgb(255, 1, 1);
+    }
+}
+
+.cadillac {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(252, 250, 250),
+                rgb(0, 0, 0),
+                rgb(155, 152, 152));
+        color: rgb(143, 142, 142);
+    }
+}
+
+.racing {
+    &:hover {
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        transition-delay: 150ms;
+        background: linear-gradient(to bottom left,
+                rgb(3, 26, 128),
+                rgb(252, 251, 251),
+                rgb(0, 0, 0));
+        color: rgb(2, 28, 143);
+    }
+}
+
+.f1-chart {
+    max-width: 95%;
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.label {
+    text-align: right;
+    font-weight: bold;
+}
+
+progress {
+    width: 100%;
+    height: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+    background-color: #e0e0e0;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 8px;
+}
+
+progress::-moz-progress-bar {
+    border-radius: 8px;
+}
+
+.mercedes::-webkit-progress-value {
+    background-color: #00D2BE;
+}
+
+.mercedes::-moz-progress-bar {
+    background-color: #00D2BE;
+}
+
+.ferrari::-webkit-progress-value {
+    background-color: #E80020;
+}
+
+.ferrari::-moz-progress-bar {
+    background-color: #E80020;
+}
+
+.redbull::-webkit-progress-value {
+    background-color: #3671C6;
+}
+
+.redbull::-moz-progress-bar {
+    background-color: #3671C6;
+}
+
+.mclaren::-webkit-progress-value {
+    background-color: #FF8000;
+}
+
+.mclaren::-moz-progress-bar {
+    background-color: #FF8000;
+}
+
+.aston::-webkit-progress-value {
+    background-color: #229971;
+}
+
+.aston::-moz-progress-bar {
+    background-color: #229971;
+}
+
+.audi::-webkit-progress-value {
+    background-color: #000000;
+}
+
+.audi::-moz-progress-bar {
+    background-color: #000000;
+}
+
+.williams::-webkit-progress-value {
+    background-color: #0262f3;
+}
+
+.williams::-moz-progress-bar {
+    background-color: #003afa;
+}
+
+.cadillac::-webkit-progress-value {
+    background-color: #848584;
+}
+
+.cadillac::-moz-progress-bar {
+    background-color: #7a7c7c;
+}
+
+.haas::-webkit-progress-value {
+    background-color: #dad5d5;
+}
+
+.haas::-moz-progress-bar {
+    background-color: #dde0df;
+}
+
+.alpine::-webkit-progress-value {
+    background-color: #0084ff;
+}
+
+.alpine::-moz-progress-bar {
+    background-color: #0080f8;
+}
+
+.racing::-webkit-progress-value {
+    background-color: #003bfc;
+}
+
+.racing::-moz-progress-bar {
+    background-color: #003cff;
+}
+
+.seccion {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+}
+
+.aerodinamica {
+    h3 {
+        background: linear-gradient(to bottom right,
+                rgba(1, 239, 247, 0.671),
+                rgba(250, 250, 250, 0.842));
+        color: rgb(0, 102, 255);
+        border-radius: 20px;
+    }
+}
+
+.chasis {
+    h3 {
+        background: linear-gradient(to bottom right,
+                rgba(72, 255, 117, 0.685),
+                rgba(250, 250, 250, 0.842));
+        color: rgb(3, 97, 10);
+        border-radius: 20px;
+    }
+}
+
+.motor {
+    h3 {
+        background: linear-gradient(to bottom right,
+                rgba(229, 87, 241, 0.685),
+                rgba(250, 250, 250, 0.842));
+        color: rgb(173, 4, 196);
+        border-radius: 20px;
+    }
+}
+
+.durabilidad {
+    h3 {
+        background: linear-gradient(to bottom right,
+                rgba(247, 222, 1, 0.685),
+                rgba(250, 250, 250, 0.842));
+        color: rgb(255, 238, 0);
+        border-radius: 20px;
+    }
+}
+
+.departamento {
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    margin: 10px;
+}
+
+.ingenieria {
+    h3 {
+        color: rgb(0, 247, 255);
+    }
+}
+
+.personal {
+    h3 {
+        color: rgb(241, 6, 241);
+    }
+}
+
+.marketing {
+    h3 {
+        color: yellow;
+    }
+}
+
+footer {
+    width: 80%;
+    margin: 0;
+    text-align: left;
+    color: white;
+    background-color: rgb(2, 2, 2);
+
+    a {
+        color: white;
+    }
+}
+
+.formulario {
+    background-color: rgba(43, 42, 42, 0.815);
+}
+
+.f1-wrapper {
+    max-width: 100%;
+    margin: 50px;
+    padding: 25px;
+    background-color: #181a20;
+    border-radius: 12px;
+    border-top: 4px solid #e10600;
+    box-sizing: border-box;
+}
+
+.f1-title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.f1-form-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.f1-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.f1-field label {
+    color: #b0b0b0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.f1-row-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+}
+
+.f1-row-3 .f1-field {
+    flex: 2;
+}
+
+.f1-row-3 .f1-field.f1-short {
+    flex: 1;
+}
+
+.f1-field input[type="text"],
+.f1-field input[type="email"],
+.f1-field input[type="number"],
+.f1-field input[type="tel"],
+.f1-field select {
+    width: 100%;
+    height: 45px;
+    padding: 0 12px;
+    background-color: #23262f;
+    border: 1px solid #363a45;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 0.95rem i;
+    box-sizing: border-box;
+}
+
+.f1-field input:focus,
+.f1-field select:focus {
+    border-color: #e10600;
+    outline: none;
+}
+
+.f1-roles-grid {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.f1-role-card {
+    flex: 1;
+    cursor: pointer;
+}
+
+.f1-role-card input[type="radio"] {
+    display: none;
+}
+
+.f1-card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: #23262f;
+    border: 2px solid #363a45;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.f1-card-box strong {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.f1-card-box span {
+    color: #888888;
+    font-size: 0.75rem;
+    margin-top: 4px;
+}
+
+.f1-role-card input:checked+.f1-card-box {
+    border-color: #e10600;
+    background-color: #2a1b1e;
+}
+
+.f1-btn {
+    width: 100%;
+    height: 50px;
+    background-color: #e10600;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.f1-btn:hover {
+    background-color: #b30500;
+}
