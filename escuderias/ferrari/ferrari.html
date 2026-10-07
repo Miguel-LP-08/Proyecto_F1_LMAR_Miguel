@@ -1,11 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ferrari F1 Team</title>
+    <link rel="stylesheet" href="ferrari.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="cabecera">Ferrari F1 Team</h1>
+
+        <nav>
+            <a href="#historia">Historia</a>
+            <a href="#titulos">Títulos</a>
+            <a href="#pilotos">Pilotos</a>
+            <a href="#navegacion">Navegación</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia" class="contenido">
+            <h2>Historia</h2>
+            <br>
+            <p>Ferrari es un equipo de Fórmula 1 con sede en Maranello, Italia. Fue fundado en 1950 por Enzo Ferrari.
+                Desde entonces, Ferrari ha logrado un gran éxito en la Fórmula 1, ganando múltiples campeonatos de
+                constructores y pilotos.</p>
+            <br>
+        </section>
+
+        <section id="titulos" class="contenido">
+            <h2>Títulos</h2>
+            <br>
+            <p>Ferrari posee un total de 16 campeonatos en constructores en los años 1952, 1953, 1954, 1955, 1956, 1957,
+                1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966 y 1967
+            </p>
+            <br>
+        </section>
+
+        <section id="pilotos" class="contenido">
+            <h2>Pilotos</h2>
+            <br>
+            <div class="container">
+
+                <div class="driver-card">
+                    <div class="car-number">16</div>
+                    <div class="card-header">
+                        <img src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png"
+                            alt="Charles Leclerc">
+                    </div>
+                    <div class="card-body">
+                        <div class="driver-title">
+                            <div class="driver-name">
+                                <h2>Charles Leclerc</h2>
+                                <p>Mónaco 🇲🇨</p>
+                            </div>
+                            <span class="number-tag">#16</span>
+                        </div>
+
+                        <div class="championships">
+                            <h3>Estatus</h3>
+                            <p>🏎️ Piloto Ferrari</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Motor 2026</span>
+                                <span class="stat-value">Ferrari 066/12</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Con Ferrari</span>
+                                <span class="stat-value">Desde 2019</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rol</span>
+                                <span class="stat-value">Titular</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Debut F1</span>
+                                <span class="stat-value">2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <div class="car-number">44</div>
+                    <div class="card-header">
+                        <img src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png"
+                            alt="Lewis Hamilton">
+                    </div>
+                    <div class="card-body">
+                        <div class="driver-title">
+                            <div class="driver-name">
+                                <h2>Lewis Hamilton</h2>
+                                <p>Reino Unido 🇬🇧</p>
+                            </div>
+                            <span class="number-tag">#44</span>
+                        </div>
+
+                        <div class="championships">
+                            <h3>Títulos Mundiales</h3>
+                            <p>🏆 7 Campeonatos</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Motor 2026</span>
+                                <span class="stat-value">Ferrari 066/12</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Con Ferrari</span>
+                                <span class="stat-value">Desde 2025</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rol</span>
+                                <span class="stat-value">Titular</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Debut F1</span>
+                                <span class="stat-value">2007</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <h3>Comparativa entre pilotos</h3>
+            <br>
+            <div class="f1-chart">
+                <div class="row">
+                    <span class="label">Charles Leclerc</span>
+                    <progress value="55" max="100" class="ferrari"></progress>
+                </div>
+                <div class="row">
+                    <span class="label">Lewis Hamilton</span>
+                    <progress value="45" max="100" class="ferrari"></progress>
+                </div>
+            </div>
+        </section>
+
+        <section id="navegacion" class="contenido">
+            <h2>Navegación</h2>
+            <br>
+            <a href="../../index.html" class="enlace">Inicio</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Miguel-LP-08</p>
+        <a href="https://github.com/Miguel-LP-08">GitHub</a>
+    </footer>
 </body>
+
 </html>

@@ -1,11 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Bull F1 Team</title>
+    <link rel="stylesheet" href="redbull.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="cabecera">Red Bull F1 Team</h1>
+
+        <nav>
+            <a href="#historia">Historia</a>
+            <a href="#titulos">Títulos</a>
+            <a href="#pilotos">Pilotos</a>
+            <a href="#navegacion">Navegación</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia" class="contenido">
+            <h2>Historia</h2>
+            <br>
+            <p>Red Bull Racing es un equipo de Fórmula 1 con sede en Milton Keynes, Inglaterra. Fue fundado en 2005
+                después de que la compañía de bebidas energéticas Red Bull adquiriera el equipo Jaguar Racing. Desde
+                entonces, Red Bull ha logrado un gran éxito en la Fórmula 1, ganando múltiples campeonatos de
+                constructores y pilotos.</p>
+            <br>
+        </section>
+
+        <section id="titulos" class="contenido">
+            <h2>titulos</h2>
+            <br>
+            <p>Red bull posee un total de 6 campeonatos en constructores en los años 2010, 2011, 2012, 2013, 2022 y 2023
+            </p>
+            <br>
+        </section>
+
+        <section id="pilotos" class="contenido">
+            <h2>Pilotos</h2>
+            <br>
+            <div class="container">
+
+                <div class="driver-card">
+                    <div class="car-number">1</div>
+                    <div class="card-header">
+                        <img src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png"
+                            alt="Max Verstappen">
+                    </div>
+                    <div class="card-body">
+                        <div class="driver-title">
+                            <div class="driver-name">
+                                <h2>Max Verstappen</h2>
+                                <p>Países Bajos 🇳🇱</p>
+                            </div>
+                            <span class="number-tag">#1</span>
+                        </div>
+
+                        <div class="championships">
+                            <h3>Títulos Mundiales</h3>
+                            <p>🏆 4 (2021, 2022, 2023, 2024)</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Motor 2026</span>
+                                <span class="stat-value">Red Bull-Ford</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Temporadas RB</span>
+                                <span class="stat-value">11ª</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rol</span>
+                                <span class="stat-value">Líder de Equipo</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Debut F1</span>
+                                <span class="stat-value">2015</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <div class="car-number">6</div>
+                    <div class="card-header">
+                        <img src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/I/ISAHAD01_Isack_Hadjar/isahad01.png"
+                            alt="Isack Hadjar">
+                    </div>
+                    <div class="card-body">
+                        <div class="driver-title">
+                            <div class="driver-name">
+                                <h2>Isack Hadjar</h2>
+                                <p>Francia 🇫🇷</p>
+                            </div>
+                            <span class="number-tag">#6</span>
+                        </div>
+
+                        <div class="championships">
+                            <h3>Estatus 2026</h3>
+                            <p>🚀 Promoción a Red Bull Senior</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Motor 2026</span>
+                                <span class="stat-value">Red Bull-Ford</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Equipo Anterior</span>
+                                <span class="stat-value">Racing Bulls</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Podios F1</span>
+                                <span class="stat-value">1 (Países Bajos '25)</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Debut F1</span>
+                                <span class="stat-value">2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <h3>Comparativa entre pilotos</h3>
+            <br>
+            <div class="f1-chart">
+                <div class="row">
+                    <span class="label">Max-Verstappen</span>
+                    <progress value="80" max="100" class="redbull"></progress>
+                </div>
+                <div class="row">
+                    <span class="label">Isack Hadjar</span>
+                    <progress value="20" max="100" class="redbull"></progress>
+                </div>
+            </div>
+        </section>
+
+        <section id="navegacion" class="contenido">
+            <h2>Navegación</h2>
+            <br>
+            <a href="../../index.html" class="enlace">Inicio</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Miguel-LP-08</p>
+        <a href="https://github.com/Miguel-LP-08">GitHub</a>
+    </footer>
 </body>
+
 </html>

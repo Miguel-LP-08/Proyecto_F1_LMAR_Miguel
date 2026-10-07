@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aston Martin F1 Team</title>
+    <link rel="stylesheet" href="aston_martin.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="cabecera">Aston Martin F1 Team</h1>
+
+        <nav>
+            <a href="#historia">Historia</a>
+            <a href="#titulos">Títulos</a>
+            <a href="#pilotos">Pilotos</a>
+            <a href="#navegacion">Navegación</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia" class="contenido">
+            <h2>Historia</h2>
+            <br>
+            <p>Aston Martin F1 Team es un equipo de Fórmula 1 con sede en Silverstone, Inglaterra. Fue fundado en 1958
+                por David Brown. Desde entonces, Aston Martin ha logrado un gran éxito en la Fórmula 1, ganando
+                múltiples campeonatos de constructores y pilotos.</p>
+            <br>
+        </section>
+
+        <section id="titulos" class="contenido">
+            <h2>Títulos</h2>
+            <br>
+            <p>Aston Martin posee un total de 9 campeonatos en constructores en los años 1959, 1960, 1961, 1962, 1963,
+                1964,
+                1965, 1966 y 1967
+            </p>
+            <br>
+        </section>
+
+        <section id="pilotos" class="contenido">
+            <h2>Pilotos</h2>
+            <br>
+            <div class="container">
+
+                <div class="driver-card">
+                    <div class="car-number">14</div>
+                    <div class="card-header">
+                        <img src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png"
+                            alt="Fernando Alonso">
+                    </div>
+                    <div class="card-body">
+                        <div class="driver-title">
+                            <div class="driver-name">
+                                <h2>Fernando Alonso</h2>
+                                <p>España 🇪🇸</p>
+                            </div>
+                            <span class="number-tag">#14</span>
+                        </div>
+
+                        <div class="championships">
+                            <h3>Títulos Mundiales</h3>
+                            <p>🏆 2 (2005, 2006)</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Motor</span>
+                                <span class="stat-value">Honda</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Con Aston Martin</span>
+                                <span class="stat-value">Desde 2023</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rol</span>
+                                <span class="stat-value">Titular</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Debut F1</span>
+                                <span class="stat-value">2001</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <div class="car-number">18</div>
+                    <div class="card-header">
+                        <img src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png"
+                            alt="Lance Stroll">
+                    </div>
+                    <div class="card-body">
+                        <div class="driver-title">
+                            <div class="driver-name">
+                                <h2>Lance Stroll</h2>
+                                <p>Canadá 🇨🇦</p>
+                            </div>
+                            <span class="number-tag">#18</span>
+                        </div>
+
+                        <div class="championships">
+                            <h3>Estatus</h3>
+                            <p>🏎️ Piloto Aston Martin</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Motor</span>
+                                <span class="stat-value">Honda</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Con Aston Martin</span>
+                                <span class="stat-value">Desde 2019</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rol</span>
+                                <span class="stat-value">Titular</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Debut F1</span>
+                                <span class="stat-value">2017</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <h3>Comparativa entre pilotos</h3>
+            <br>
+            <div class="f1-chart">
+                <div class="row">
+                    <span class="label">Fernando Alonso</span>
+                    <progress value="80" max="100" class="aston"></progress>
+                </div>
+                <div class="row">
+                    <span class="label">Lance Stroll</span>
+                    <progress value="20" max="100" class="aston"></progress>
+                </div>
+            </div>
+        </section>
+
+        <section id="navegacion" class="contenido">
+            <h2>Navegación</h2>
+            <br>
+            <a href="../../index.html" class="enlace">Inicio</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Miguel-LP-08</p>
+        <a href="https://github.com/Miguel-LP-08">GitHub</a>
+    </footer>
 </body>
+
 </html>

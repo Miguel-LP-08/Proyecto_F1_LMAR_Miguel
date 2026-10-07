@@ -1,11 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Williams F1 Team</title>
+    <link rel="stylesheet" href="williams.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="cabecera">Williams F1 Team</h1>
+
+        <nav>
+            <a href="#historia">Historia</a>
+            <a href="#titulos">Títulos</a>
+            <a href="#pilotos">Pilotos</a>
+            <a href="#navegacion">Navegación</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia" class="contenido">
+            <h2>Historia</h2>
+            <br>
+            <p>Williams F1 Team es un equipo de Fórmula 1 con sede en Grove, Inglaterra. Fue fundado en 1957 por Frank
+                Williams y Patrick Head. Desde entonces, Williams ha logrado un gran éxito en la Fórmula 1, ganando
+                múltiples campeonatos de constructores y pilotos.</p>
+            <br>
+        </section>
+
+        <section id="titulos" class="contenido">
+            <h2>Títulos</h2>
+            <br>
+            <p>Williams posee un total de 9 campeonatos en constructores en los años 1980, 1981, 1982, 1983, 1984, 1985,
+                1986, 1987 y 1988
+            </p>
+            <br>
+        </section>
+
+        <section id="pilotos" class="contenido">
+            <h2>Pilotos</h2>
+            <br>
+            <div class="container">
+
+                <div class="driver-card">
+                    <div class="car-number">23</div>
+                    <div class="card-header">
+                        <img src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png" alt="Alexander Albon">
+                    </div>
+                    <div class="card-body">
+                        <div class="driver-title">
+                            <div class="driver-name">
+                                <h2>Alexander Albon</h2>
+                                <p>Tailandia 🇹🇭</p>
+                            </div>
+                            <span class="number-tag">#23</span>
+                        </div>
+
+                        <div class="championships">
+                            <h3>Estatus</h3>
+                            <p>🏎️ Piloto Williams</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Motor</span>
+                                <span class="stat-value">Mercedes</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Con Williams</span>
+                                <span class="stat-value">Desde 2022</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rol</span>
+                                <span class="stat-value">Titular</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Debut F1</span>
+                                <span class="stat-value">2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <div class="car-number">55</div>
+                    <div class="card-header">
+                        <img src="https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png"
+                            alt="Carlos Sainz">
+                    </div>
+                    <div class="card-body">
+                        <div class="driver-title">
+                            <div class="driver-name">
+                                <h2>Carlos Sainz</h2>
+                                <p>España 🇪🇸</p>
+                            </div>
+                            <span class="number-tag">#55</span>
+                        </div>
+
+                        <div class="championships">
+                            <h3>Estatus</h3>
+                            <p>🌶️ Piloto Williams</p>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Motor</span>
+                                <span class="stat-value">Mercedes</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Con McLaren</span>
+                                <span class="stat-value">Desde 2025</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Rol</span>
+                                <span class="stat-value">Titular</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Debut F1</span>
+                                <span class="stat-value">2015</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <h3>Comparativa entre pilotos</h3>
+            <br>
+            <div class="f1-chart">
+                <div class="row">
+                    <span class="label">Alexander Albon</span>
+                    <progress value="51" max="100" class="williams"></progress>
+                </div>
+                <div class="row">
+                    <span class="label">Carlos Sainz</span>
+                    <progress value="49" max="100" class="williams"></progress>
+                </div>
+            </div>
+        </section>
+
+        <section id="navegacion" class="contenido">
+            <h2>Navegación</h2>
+            <br>
+            <a href="../../index.html" class="enlace">Inicio</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Miguel-LP-08</p>
+        <a href="https://github.com/Miguel-LP-08">GitHub</a>
+    </footer>
 </body>
+
 </html>
