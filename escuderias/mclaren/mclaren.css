@@ -98,7 +98,7 @@ nav {
 }
 
 .driver-card {
-    background-color: var(--rb-card-bg);
+    background-color: var(--mclaren-card-bg);
     border-radius: 16px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -109,7 +109,7 @@ nav {
 
 .driver-card:hover {
     transform: translateY(-8px);
-    border-color: var(--rb-red);
+    border-color: var(--mclaren-blue);
 }
 
 .car-number {
@@ -128,7 +128,7 @@ nav {
     width: 100%;
     height: 280px;
     overflow: hidden;
-    background: linear-gradient(to bottom, transparent, var(--rb-card-bg));
+    background: linear-gradient(to bottom, transparent, var(--mclaren-papaya));
 }
 
 .card-header img {
@@ -148,7 +148,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    border-bottom: 2px solid var(--rb-red);
+    border-bottom: 2px solid var(--mclaren-text);
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
@@ -160,22 +160,22 @@ nav {
 }
 
 .driver-name p {
-    color: var(--rb-gray);
+    color: var(--mclaren-papaya);
     font-size: 0.9rem;
 }
 
 .number-tag {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--rb-yellow);
+    color: var(--mclaren-papaya);
     background-color: rgba(252, 209, 22, 0.1);
     padding: 4px 12px;
     border-radius: 8px;
 }
 
 .championships {
-    background: linear-gradient(90deg, rgba(204, 30, 54, 0.2), transparent);
-    border-left: 4px solid var(--rb-red);
+    background: linear-gradient(90deg, rgba(204, 129, 30, 0.2), transparent);
+    border-left: 4px solid var(--mclaren-papaya);
     padding: 10px 15px;
     border-radius: 0 8px 8px 0;
     margin-bottom: 20px;
@@ -183,14 +183,14 @@ nav {
 
 .championships h3 {
     font-size: 0.85rem;
-    color: var(--rb-gray);
+    color: var(--mclaren-papaya);
     text-transform: uppercase;
 }
 
 .championships p {
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--rb-yellow);
+    color: var(--mclaren-text);
 }
 
 .stats-grid {
@@ -207,7 +207,7 @@ nav {
 
 .stat-label {
     font-size: 0.75rem;
-    color: var(--rb-gray);
+    color: var(--mclaren-papaya);
     text-transform: uppercase;
     display: block;
     margin-bottom: 3px;
